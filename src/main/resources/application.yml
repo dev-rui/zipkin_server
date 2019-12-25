@@ -1,0 +1,9 @@
+spring:
+  application:
+      name: zipkin-server
+  rabbitmq:
+    addresses: amqp://192.168.36.129:5772
+    username:  user
+    password: 123456
+server:
+  port: 9411
